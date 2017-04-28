@@ -12,7 +12,8 @@
 #include <string>      // for STRING
 #include <cassert>     // for ASSERT
 #include "stock.h"     // for STOCK_TRANSACTION
-#include "queue.h"     // for QUEUE
+//TODO add back in queue #include "queue.h"     // for QUEUE
+#include <queue>
 using namespace std;
 
 /************************************************

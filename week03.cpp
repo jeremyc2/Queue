@@ -12,7 +12,8 @@
 
 #include <iostream>    // for CIN and COUT
 #include <string>      //
-#include "queue.h"     // your Queue class should be in queue.h
+// TODO I'm temporarily taking this off until it works. #include "queue.h"     // your Queue class should be in queue.h
+#include <queue>
 #include "stock.h"     // your stocksBuySell() function
 #include "dollars.h"   // for the Dollars class
 using namespace std;
@@ -28,8 +29,8 @@ void testErrors();
 // of these. The idea is to help you avoid too many compile errors at once.
 // I suggest first commenting out all of these tests, then try to use only
 // TEST1.  Then, when TEST1 works, try TEST2 and so on.
-#define TEST1   // for testSimple()
-#define TEST2   // for testPushPopTop()
+//#define TEST1   // for testSimple()
+//#define TEST2   // for testPushPopTop()
 #define TEST3   // for testCircular()
 #define TEST4   // for testErrors()
 

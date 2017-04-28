@@ -12,7 +12,8 @@
 #define STOCK_H
 
 #include "dollars.h"   // for Dollars defined in StockTransaction
-#include "queue.h"     // for QUEUE
+#include <queue>
+ //TODO #include "queue.h"     // for QUEUE
 #include <iostream>    // for ISTREAM and OSTREAM
 
 // the interactive stock buy/sell function
