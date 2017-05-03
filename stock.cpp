@@ -12,6 +12,7 @@
 #include <string>      // for STRING
 #include <cassert>     // for ASSERT
 #include "stock.h"     // for STOCK_TRANSACTION
+#include "dollars.h"   // used to handle currency
 //TODO add back in queue #include "queue.h"     // for QUEUE
 #include <queue>
 using namespace std;
@@ -31,7 +32,47 @@ void stocksBuySell()
    cout << "  display         - Display your current stock portfolio\n";
    cout << "  quit            - Display a final report and quit the program\n";
 
-   // your code here...
+   string instruction;
+   char token;
+   int shares;
+   string stringDollars;
+   cin >> instruction;
+   while (instruction != "quit")
+   {
+	   int i = 0;
+	   switch (token)
+	  {
+		   case 'b':
+			   i + 4;
+			   break;
+		   case 's':
+			   i + 5;
+		   break;
+	   }
+	   if (i == 4)
+	   {
+		   while (isalnum(instruction[i]))
+		   {
+			   numberOfShares.append(1, instruction[i]);
+			   i++;
+		   }
+		   while (i < instruction.length())
+		   {
+			   stringDollars.append(1, instruction[i]);
+			   i++;
+		   }
+	   }
+	   else if (i == 5)
+	   {
+
+	   }
+   }
 }
+
+// TODO delete main
+int main()
+{
+	return 0;
+};
 
 
